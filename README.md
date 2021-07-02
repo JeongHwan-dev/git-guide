@@ -24,13 +24,13 @@ $ git --version
 
 #### autocrlf 설정
 
-**Windows**
+- **Windows**
 
 ```bash
 $ git config --global core.autocrlf true
 ```
 
-**Mac**
+- **Mac**
 
 ```bash
 $ git config --global core.autocrlf input
@@ -62,13 +62,13 @@ $ git status
 
 ### 파일 스테이징
 
-**특정 파일 스테이징**
+- **특정 파일 스테이징**
 
 ```bash
 $ git add 파일명
 ```
 
-**수정한 모든 파일 스테이징**
+- **수정한 모든 파일 스테이징**
 
 ```bash
 $ git add .
