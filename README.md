@@ -45,7 +45,7 @@ $ git config --global user.name 'JeongHwan-dev'
 #### 이메일 설정
 
 ```bash
-$ git config --global user.email 'jeonghwan.dev@gmail.com
+$ git config --global user.email 'jeonghwan.dev@gmail.com'
 ```
 
 #### 깃 설정 확인
