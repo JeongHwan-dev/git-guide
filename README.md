@@ -6,7 +6,7 @@
 
 <br />
 
-## 2. 깃 명령어
+## 2. 깃 명령어(Git Commands)
 
 ### 깃 초기화
 
@@ -58,4 +58,42 @@ $ git config --global --list
 
 ```bash
 $ git status
+```
+
+### 파일 스테이징
+
+**특정 파일 스테이징**
+
+```bash
+$ git add 파일명
+```
+
+**수정한 모든 파일 스테이징**
+
+```bash
+$ git add .
+```
+
+### 스테이지에 올라온 파일 커밋
+
+```bash
+$ git commit -m 'message'
+```
+
+### 저장소에 저장된 버전 확인 및 커밋 기록 확인
+
+```bash
+$ git log
+```
+
+### 원격 저장소에 연결
+
+```bash
+$ git remote add origin 원격 저장소 주소
+```
+
+### 원격 저장소에 파일 올리기
+
+```bash
+$ git push origin master
 ```
