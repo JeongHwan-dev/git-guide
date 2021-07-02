@@ -39,13 +39,13 @@ $ git config --global core.autocrlf input
 #### 이름 설정
 
 ```bash
-$ git config --global user.name 'JeongHwan-dev'
+$ git config --global user.name 'YOUR_NAME'
 ```
 
 #### 이메일 설정
 
 ```bash
-$ git config --global user.email 'jeonghwan.dev@gmail.com'
+$ git config --global user.email 'YOUR_EMAIL'
 ```
 
 #### 깃 설정 확인
