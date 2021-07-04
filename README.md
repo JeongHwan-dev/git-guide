@@ -8,7 +8,7 @@
 
 ## 2. 깃 명령어(Git Commands)
 
-### 깃 초기화
+### 깃 초기화 (버전 관리 시작)
 
 ```bash
 $ git init
@@ -74,7 +74,7 @@ $ git add 파일명
 $ git add .
 ```
 
-### 스테이지에 올라온 파일 커밋
+### 스테이지에 올라온 파일 커밋(버전 생성)
 
 ```bash
 $ git commit -m 'message'
@@ -95,5 +95,31 @@ $ git remote add origin 원격 저장소 주소
 ### 원격 저장소에 파일 올리기
 
 ```bash
-$ git push origin master
+$ git push -u origin master
+```
+
+### 브랜치 목록 조회
+
+- **브랜치 확인(기본)**
+
+```bash
+$ git branch
+```
+
+- **브랜치 확인(원격 저장소 포함)**
+
+```bash
+$ git branch -a
+```
+
+### 새 브랜치 생성
+
+```bash
+$ git branch 새 브랜치 이름
+```
+
+### 브랜치 변경
+
+```bash
+$ git checkout 변경할 브랜치 이름
 ```
