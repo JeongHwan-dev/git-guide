@@ -126,8 +126,34 @@ $ git branch 새 브랜치 이름
 $ git checkout 변경할 브랜치 이름
 ```
 
+### 브랜치 생성과 동시에 변경
+
+```bash
+$ git checkout -b 새 브랜치 이름
+```
+
 ### 원격 저장소 복제
 
 ```bash
 $ git clone 원격 저장소 주소
+```
+
+### 버전 내역 되돌리기
+
+- 한 커밋 이전으로 되돌리기
+
+```bash
+$ git reset --hard HEAD~1
+```
+
+- 두 커밋 이전으로 되돌리기
+
+```bash
+$ git reset --hard HEAD~2
+```
+
+- 다시 이전 커밋 상태로 되돌리기
+
+```bash
+$ git reset --hard ORIG_HEAD
 ```
