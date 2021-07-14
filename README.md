@@ -1,6 +1,20 @@
-# :octocat: 깃 가이드(Git Guide)
+<div align="center">
+  <br />
+  <img src="./images/git_logo.png" alt="git" height="200px" />
+  <br />
+  <br />
+  <h1>:octocat: 깃 가이드(Git Guide)</h1>
+  <br />
+</div>
 
-## 1. 개요(Outline)
+## 목차
+
+1. [개요](#1-개요)
+2. [깃 명령어](#2-깃-명령어)
+
+<br />
+
+## 1. 개요
 
 **Git(깃)** 은 컴퓨터 파일의 변경사항을 추적하고  
 여러 사용자들 간에 해당 파일 작업을 조율하기 위한  
@@ -8,7 +22,7 @@
 
 <br />
 
-## 2. 깃 명령어(Git Commands)
+## 2. 깃 명령어
 
 ### 깃 초기화 (버전 관리 시작)
 
