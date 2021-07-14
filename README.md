@@ -1,9 +1,9 @@
 <div align="center">
   <br />
-  <img src="./images/git_logo.png" alt="git" height="200px" />
+  <img src="./images/git_logo.jpg" alt="git" height="200px" />
   <br />
   <br />
-  <h1>:octocat: 깃 가이드(Git Guide)</h1>
+  <h1>:octocat: 깃 가이드 (Git Guide)</h1>
   <br />
 </div>
 
